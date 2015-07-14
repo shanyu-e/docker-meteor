@@ -39,6 +39,11 @@ if [ -n "${REPO}" ]; then
    git checkout ${BRANCH}
 fi
 
+# meteor add package
+echo "start install package"
+meteor add twbs:bootstrap
+meteor add underscore
+
 # Run meteor
 echo "start run meteor..."
 cd /var/www/${APP_NAME}
