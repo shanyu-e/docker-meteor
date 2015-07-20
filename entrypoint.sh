@@ -43,6 +43,8 @@ fi
 echo "start install package"
 meteor add twbs:bootstrap
 meteor add underscore
+meteor add iron:router
+meteor add sacha:spin
 
 # Run meteor
 echo "start run meteor..."
