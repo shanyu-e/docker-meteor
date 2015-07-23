@@ -47,6 +47,7 @@ meteor add iron:router
 meteor add sacha:spin
 meteor add ian:accounts-ui-bootstrap-3
 meteor add accounts-password
+meteor add shanyue:errors
 
 # Run meteor
 echo "start run meteor..."
